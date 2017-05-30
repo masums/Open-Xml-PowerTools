@@ -24,7 +24,7 @@ namespace OpenXmlPowerTools
                 settings);
             result.SaveAs(Path.Combine(tempDi.FullName, "Compared.docx"));
 
-            var revisions = WmlComparer.GetRevisions(result);
+            var revisions = WmlComparer.GetRevisions(result, new WmlComparerSettings() { });
             foreach (var rev in revisions)
             {
                 Console.WriteLine("Author: " + rev.Author);
