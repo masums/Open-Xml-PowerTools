@@ -29,8 +29,9 @@ namespace ExampleDocumentBuilder04
                     .Root
                     .Element(W.body)
                     .Elements();
-
+                
                 // project collection of tuples containing element and type
+                
                 var q2 = q1
                     .Select(
                         e =>

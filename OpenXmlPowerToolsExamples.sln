@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenXmlPowerTools", "OpenXmlPowerTools\OpenXmlPowerTools.csproj", "{6F957FF3-AFCC-4D69-8FBC-71AE21BC45C9}"
 EndProject
@@ -77,6 +77,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmlComparer01", "OpenXmlPowerToolsExamples\WmlComparer01\WmlComparer01.csproj", "{C9CAA69C-575A-442E-9D8A-69C53B39D72C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmlComparer02", "OpenXmlPowerToolsExamples\WmlComparer02\WmlComparer02.csproj", "{3D1C46E1-7A9E-4A4B-8D95-68613603DEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableExample", "TableExample\TableExample.csproj", "{9F0B9162-7782-4688-BD89-3D03AB53ABD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -224,6 +226,10 @@ Global
 		{3D1C46E1-7A9E-4A4B-8D95-68613603DEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D1C46E1-7A9E-4A4B-8D95-68613603DEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D1C46E1-7A9E-4A4B-8D95-68613603DEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0B9162-7782-4688-BD89-3D03AB53ABD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0B9162-7782-4688-BD89-3D03AB53ABD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0B9162-7782-4688-BD89-3D03AB53ABD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0B9162-7782-4688-BD89-3D03AB53ABD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
